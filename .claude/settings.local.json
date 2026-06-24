@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(pnpm --version)",
+      "Bash(yarn --version)",
+      "Bash(git --version)",
+      "Bash(npm ls *)",
+      "Bash(node -e \"const i=require\\('lucide-react'\\); const want=['Activity','LayoutDashboard','LayoutGrid','ClipboardCheck','ClipboardList','TrendingUp','Search','Brain','Database','Upload','User','Settings','Settings2','HelpCircle','CircleHelp','LifeBuoy','LogOut','Bell','Mic','ChevronDown','Menu','Filter','Download','Plus','Check','X','AlertTriangle','TriangleAlert','FileSpreadsheet','Save','FileText','CircleAlert','ArrowUpRight','ArrowDownRight','UserRound','Users','Calendar','SlidersHorizontal','MoreVertical','Ellipsis','CheckCircle2','CircleCheck','Clock','Stethoscope','HeartPulse','MessageSquare','Sparkles','Moon','Compass','UsersRound','ListChecks','BarChart3','Workflow']; const miss=want.filter\\(n=>!\\(n in i\\)\\); console.log\\('MISSING:', miss.join\\(', '\\)||'\\(none\\)'\\);\")",
+      "mcp__Claude_Preview__preview_start",
+      "mcp__mcp-registry__search_mcp_registry",
+      "Bash(exit 1)",
+      "Bash(sed -i 's#export function ModeloML\\(#export function ModeloMlPage\\(#' src/features/modelo-ml/pages/ModeloMlPage.tsx)",
+      "Bash(sed -i 's#export function IngestaDatos\\(#export function IngestaPage\\(#' src/features/ingesta/pages/IngestaPage.tsx)"
+    ]
+  }
+}

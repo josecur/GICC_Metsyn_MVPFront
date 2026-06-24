@@ -1,0 +1,6 @@
+export { FilterContainer } from "./FilterContainer"
+export { FiltroPeriodo } from "./FiltroPeriodo"
+export { FiltroGenero } from "./FiltroGenero"
+export { FiltroCriterio } from "./FiltroCriterio"
+export { FiltroEdad } from "./FiltroEdad"
+export { useActiveFilters } from "./hooks/useActiveFilters"
